@@ -1,0 +1,17 @@
+{
+  "name": "fridge-push-notifications",
+  "version": "1.0.0",
+  "description": "script to check db and send push notifications to client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Eric Vu",
+  "license": "ISC",
+  "dependencies": {
+    "es6-promise": "^4.2.5",
+    "isomorphic-fetch": "^2.2.1",
+    "mongodb": "^3.1.6"
+  }
+}
